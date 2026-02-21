@@ -37,6 +37,10 @@ else
 fi
 EOL
 
+# Temporary patch form arm64 builds: https://forums.raspberrypi.com/viewtopic.php?t=394925#p2364055
+cp /opt/ut2004/System/Default.ini /opt/ut2004/SystemARM64/
+cp /opt/ut2004/System/DefUser.ini /opt/ut2004/SystemARM64
+
 chmod +x /opt/ut2004/launch.sh
 
 sed -i 's/StartupFullscreen=True/StartupFullscreen=False/' /opt/ut2004/System/Default.ini

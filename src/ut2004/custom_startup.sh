@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 START_COMMAND="/opt/ut2004/launch.sh"
-PGREP="heaven"
+PGREP="UT2004"
 export MAXIMIZE="false"
 export MAXIMIZE_NAME="UT2004"
 MAXIMIZE_SCRIPT=$STARTUPDIR/maximize_window.sh
