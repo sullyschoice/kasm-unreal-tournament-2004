@@ -1,4 +1,4 @@
-FROM kasmweb/core-debian-trixie
+FROM kasmweb/core-debian-trixie:develop
 USER root
 
 ENV HOME=/home/kasm-default-profile
